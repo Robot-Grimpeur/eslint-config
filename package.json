@@ -1,0 +1,31 @@
+{
+  "name": "@robot-grimpeur/eslint-config",
+  "version": "1.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "url": "git://github.com/Robot-Grimpeur/eslint-config.git"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "release": "standard-version --release-as"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^6.0.0",
+    "prettier": "2.3.0",
+    "standard-version": "^9.3.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": ">=7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  }
+}
