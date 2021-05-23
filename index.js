@@ -3,6 +3,9 @@ const path = require('path');
 
 module.exports = {
   parser: '@typescript-eslint/parser',
+  env: {
+    node: true,
+  },
   plugins: ['@typescript-eslint', 'prettier', 'simple-import-sort'],
   extends: [
     'eslint:recommended',
